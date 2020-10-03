@@ -1,0 +1,56 @@
+.complex_form{
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 2px #f9ca63 solid;
+    padding: 20px 10px 10px 10px;
+	width: 350px;
+    display: flex;
+    flex-direction: column;
+	background-color: #ffffff;
+}
+
+.align_center {
+    display: flex;
+	justify-content: center;
+}
+
+.complex_form .form_title{
+    font-size: 22px;
+    font-weight: bold;
+    margin: -20px -10px 20px -10px;
+    padding: 10px 0px 10px 25px;
+    color: white;
+    background-color: #FFA500;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.complex_form .form_element{
+    margin: 5px 10px 5px 10px;
+    font-size: 20px;
+    border-radius: 12px;
+	border: 2px #f9ca63 solid;
+    padding: 7px 10px 7px 10px;
+	box-shadow: 5px 5px #ffd57a;
+}
+
+.complex_form .form_btns{
+	margin-top: 30px;
+    display: flex;
+	justify-content: space-evenly;
+}
+
+.btn{
+    border-radius:10px;
+    text-align:center;
+    font-size: 20px;
+    color: #595959;
+    background: #ffffff;
+    border: 0px #3C3D3F solid;
+    padding: 10px 20px 10px 20px;
+}
+
+.btn:hover {
+  background: #ffae3f;
+  color: #ffffff;
+  cursor: pointer;
+}

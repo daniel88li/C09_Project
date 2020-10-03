@@ -1,0 +1,28 @@
+{
+    "name": "drawing",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "heroku-postbuild": "cd frontend && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
+        "local": "concurrently \"node app.js\" \"cd frontend && npm start\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "concurrently": "^4.1.0",
+        "cookie": "^0.3.1",
+        "express": "^4.16.4",
+        "express-session": "^1.15.6",
+        "mongodb": "^3.1.13",
+        "path": "^0.12.7",
+        "socket.io": "^2.2.0",
+        "validator": "^10.11.0"
+    },
+    "engines": {
+        "node": "8.12"
+    }
+}

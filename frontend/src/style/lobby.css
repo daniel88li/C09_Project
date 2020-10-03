@@ -1,0 +1,139 @@
+.lobby_items {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.box{
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+	background-color: #ffffff;
+	max-width: 1000px;
+	max-height: 600px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.user{
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}
+
+.server_container{
+	margin-top: 15px;
+	border: 0px #FFA500 solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.server_tabs{
+	display: flex;
+	flex-direction: row;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.server_tab{
+	border: 2px #4a4e4d solid;
+	border-radius: 4px;
+	padding: 10px 10px 10px 10px;
+	margin: 0px -1px 10px -1px;
+}
+
+.server_tabs #server_tab_name{
+	width: 550px;
+}
+
+.server_tabs #server_tab_owner{
+    width: 200px;
+}
+
+.server_tabs #server_tab_players{
+    width: 200px;
+}
+
+.server{
+	display: flex;
+	flex-direction: row;
+}
+
+.server_info{
+	border-bottom: 2px #4a4e4d solid;
+	padding: 10px 10px 10px 10px;
+	margin: 0px 0px 0px 0px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}
+
+.server_name{
+	width: 550px;
+}
+
+.server_owner{
+    width: 200px;
+}
+
+.server_players{
+    width: 200px;
+}
+
+.server:hover {
+  background: #ffae3f;
+  color: #ffffff;
+  font-weight: bold;
+  transition: 0.2s;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+/*https://www.w3schools.com/CSS/css_dropdowns.asp*/
+
+.dropdown {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border: 2px #4a4e4d solid;
+  border-radius: 4px;
+  max-width: 200px;
+}
+
+.dropdown-content {
+  display: none;
+  align-content: center;
+}
+
+/*https://www.w3schools.com/css/css_form.asp*/
+.dropdown-content #room_input {
+  width: 100%;
+  padding: 5px 5px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #4a4e4d;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.dropdown-content #start_btn {
+  width: 50%;
+  padding: 10px 10px;
+  border: 0px solid #4a4e4d;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #ffae3f;
+  color: #ffffff;
+  align-self: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}

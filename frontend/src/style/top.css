@@ -1,0 +1,31 @@
+/*https://www.w3schools.com/css/css_navbar.asp*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li .top_btn{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.top_btn{
+	background: #ffae3f;
+	border: 0px;
+	font-size: 20px;
+}
+
+li .top_btn:hover {
+  background-color: #f9ca63;
+  cursor: pointer;
+}
